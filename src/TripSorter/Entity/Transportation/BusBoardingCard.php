@@ -1,11 +1,12 @@
 <?php
 
 namespace TripSorter\Entity\Transportation;
+use TripSorter\Entity\Presentable;
 
 /**
  * Boarding card for bus
  */
-class BusBoardingCard extends BoardingCard
+class BusBoardingCard extends BoardingCard implements Presentable
 {
 
     /**

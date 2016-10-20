@@ -2,6 +2,7 @@
 
 namespace TripSorter\Presenter;
 
+use TripSorter\Entity\Presentable;
 use TripSorter\Entity\Transportation\BoardingCard;
 
 /**
@@ -13,7 +14,7 @@ class Presenter
     /**
      * Take an array or ordered boarding cards and present how to complete the journey
      *
-     * @param array|BoardingCard[] $orderedBoardingCards
+     * @param array|Presentable[] $orderedBoardingCards
      * @return string
      */
     public static function present(array $orderedBoardingCards): string {

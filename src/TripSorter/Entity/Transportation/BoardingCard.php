@@ -170,11 +170,4 @@ abstract class BoardingCard
         $this->note = $note;
     }
 
-    /**
-     * Get description of this transportation
-     *
-     * @return string
-     */
-    abstract public function getDescription(): string;
-
 }
